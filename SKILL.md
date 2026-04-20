@@ -32,7 +32,7 @@ before proceeding.
 
 If the user provides a **URL** as a content source (Google Business Profile,
 Yelp listing, Instagram profile, company website, etc.), read
-`../content-sourcer/SKILL.md` and follow its Execution Protocol to extract
+`skills/content-sourcer/SKILL.md` and follow its Execution Protocol to extract
 business information and download image assets **before** initializing the
 project.
 
@@ -48,7 +48,7 @@ Steps 2–3.
 
 > ⚠️ **Content Sourcer is mandatory when a URL is provided.** You must run
 > the Playwright-based scraper — do not substitute with `WebFetch`, web
-> search, or manually assembled data. Read `../content-sourcer/SKILL.md`
+> search, or manually assembled data. Read `skills/content-sourcer/SKILL.md`
 > carefully: it contains Critical Rules that forbid these shortcuts.
 
 ---
@@ -153,7 +153,7 @@ echo "=== End Gate Check ==="
 
 **If any ❌ BLOCKING check fails**: do NOT proceed. Go back to Step 0 and
 run the content-sourcer scraper properly. See
-`../content-sourcer/SKILL.md` → Critical Rules.
+`skills/content-sourcer/SKILL.md` → Critical Rules.
 
 **If images are 0 but other checks pass**: proceed, but ensure downstream
 sections use stock imagery AND the user has been informed that scraped
